@@ -12,18 +12,18 @@ import Footer from './components/Footer';
 
 class App extends React.Component {
 
-  render(){
-    return(
+  render() {
+    return (
       <>
-        {/* <p>I am in the App Component</p>
-        <p>welcome to 301 course</p> */}
-       <Header />
-       <Main  />
-        <Footer /> 
-        {/* <img src={pic1} /> */}
-      
+         <div className="app">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+
+
       </>
-      
+
     )
   }
 
