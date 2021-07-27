@@ -27,9 +27,10 @@ incrementNumOfPets = () => {
       <>
        
       <Col>
+      <div className="row">
       
         <Card style={{ width: '18rem',height: "30rem" }}>
-          <Card.Img  onClick={this.incrementNumOfPets} variant="top" src={this.props.image} style={{ width: '18rem' }}></Card.Img> 
+          <Card.Img className="image"  onClick={this.incrementNumOfPets} variant="top" src={this.props.image} style={{ width: '18rem' }}></Card.Img> 
           <Card.Body>
 
             <Card.Title>{this.props.description} </Card.Title>
@@ -39,6 +40,7 @@ incrementNumOfPets = () => {
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card> 
+        </div>
         </Col>
       </>
 

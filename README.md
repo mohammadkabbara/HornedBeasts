@@ -1,3 +1,37 @@
+**lab 2 React State and Props**
+
+Number and name of feature: ___lab 2 React State and Props_____________________________
+
+
+Estimate of time needed to complete: 3 hours _____
+
+
+Start time: __1 pm___
+
+
+Finish time: __6 pm___
+
+
+Actual time needed to complete: __5 hours___
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
