@@ -12,18 +12,19 @@ class Main extends React.Component {
   render() {
     return (
       <div className="first">
-         <Row xs={1} md={2} className="g-4">
+         <Row xs={1} md={3} className="g-4">
         {
           data.map((item) => {
 
             return (
 
               <HornedBeasts 
+              showing={this.props.handleShow} 
+                displaying = {this.props.displayImage}
                 image={item.image_url}
                 title={item.title}
                 description={item.description}
-                showing={this.props.handleShow} 
-                displaying = {this.props.displayImage}>
+                >
                
               </HornedBeasts>
 
