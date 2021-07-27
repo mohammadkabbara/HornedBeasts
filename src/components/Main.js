@@ -1,5 +1,6 @@
 import React from 'react';
 import HornedBeasts from './HornedBeast';
+import Row from 'react-bootstrap/Row';
 
 
 
@@ -10,7 +11,9 @@ class Main extends React.Component {
     render() {
         return (
             <>
+              <Row xs={1} md={3} className="g-4">
             <div className="first">
+            
                  < HornedBeasts image="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg" title="UniWhal" alt="Mythical Creatures" className='image' description="A unicorn and a narwhal nuzzling their horns" keyword="narwhal" horns='1' />
 
 
@@ -71,8 +74,10 @@ class Main extends React.Component {
 
                 < HornedBeasts image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg" title="Smaug" alt="Mythical Creatures" className='image' description="Fan illustration of Smaug from 'The Hobbit'" keyword="dragon" horns='100' />
 
-
+               
                 </div>
+                </Row>
+               
                
 
             </>
