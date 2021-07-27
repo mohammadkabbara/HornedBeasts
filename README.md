@@ -1,3 +1,22 @@
+**lab 3 Passing Functions in Props**
+
+Number and name of feature: ___lab 3 Passing Functions in Props____________________________
+
+
+Estimate of time needed to complete: 5 hours _____
+
+
+Start time: __1 pm___
+
+
+Finish time: __9 pm___
+
+
+Actual time needed to complete: __8 hours___
+
+
+
+
 **lab 2 React State and Props**
 
 Number and name of feature: ___lab 2 React State and Props_____________________________

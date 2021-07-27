@@ -36,8 +36,8 @@ class HornedBeast extends React.Component {
 
             <Card 
             style={{ width: '18rem' }}
-            //  style={{ height: '18rem'  }}
-              style={{ background: '#928585'  }}
+            //  style={{ height: '10rem'  }}
+              style={{ background: 'rgb(176 161 161)'  }}
              
                >
                
@@ -47,7 +47,11 @@ class HornedBeast extends React.Component {
                onClick={this.incrementNumOfPets} 
                variant="top" 
                src={this.props.image} 
-               style={{ width: '18rem' }}></Card.Img>
+               style={{ width: '28.5rem' }}
+              
+
+               
+               ></Card.Img>
 
               <Card.Body>
 

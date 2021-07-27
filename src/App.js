@@ -16,9 +16,9 @@ class App extends React.Component {
     super(props);
     this.state={
       show :false,
-      title: null,
-      image:null,
-      description:null,
+      title: '',
+      image:'',
+      description:'',
 
     };
   }
