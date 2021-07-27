@@ -2,11 +2,12 @@ import React from 'react';
 
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
 
 
 
 
-class App extends React.Component {
+class HornedBeast extends React.Component {
 
   constructor(props){
     super(props);
@@ -24,9 +25,9 @@ incrementNumOfPets = () => {
   render() {
     return (
       <>
-
        
-
+      <Col>
+      
         <Card style={{ width: '18rem',height: "30rem" }}>
           <Card.Img  onClick={this.incrementNumOfPets} variant="top" src={this.props.image} style={{ width: '18rem' }}></Card.Img> 
           <Card.Body>
@@ -38,8 +39,7 @@ incrementNumOfPets = () => {
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card> 
-
-
+        </Col>
       </>
 
     )
@@ -47,12 +47,6 @@ incrementNumOfPets = () => {
 
 }
 
-export default App;
+export default HornedBeast;
 
- {/* <h2>{this.props.title}</h2>
-        <div className = "image">
-        <img  src  = {this.props.image} alt={this.props.alt} title={this.props.title} ></img>
-        </div>
-        <div className = "description">
-        <p>{this.props.description}</p> 
-        </div>    */}
+ 
