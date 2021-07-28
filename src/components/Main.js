@@ -1,5 +1,6 @@
 import React from 'react';
 import HornedBeasts from './HornedBeast';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Row from 'react-bootstrap/Row';
 import data  from './data.json';
 
@@ -10,6 +11,8 @@ import data  from './data.json';
 
 class Main extends React.Component {
   render() {
+
+  
     return (
       <div className="first">
          <Row xs={1} md={3} className="g-4">
@@ -19,6 +22,7 @@ class Main extends React.Component {
             return (
 
               <HornedBeasts 
+            
               showing={this.props.handleShow} 
                 displaying = {this.props.displayImage}
                 image={item.image_url}
